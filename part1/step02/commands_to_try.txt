@@ -1,0 +1,2 @@
+g++ main.cpp
+g++ main.cpp get_input.cpp process_input.cpp show_result.cpp

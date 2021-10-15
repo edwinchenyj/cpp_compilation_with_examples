@@ -1,0 +1,1 @@
+double process_input(double input);

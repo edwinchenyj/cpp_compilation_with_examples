@@ -1,0 +1,11 @@
+g++ main.cpp
+g++ main.cpp get_input.cpp process_input.cpp show_result.cpp
+g++ main.cpp -c
+
+g++ get_input.cpp
+g++ get_input.cpp -c
+g++ main.cpp get_input.o
+
+g++ process_input.cpp -c
+g++ show_result.cpp -c
+g++ main.cpp get_input.o process_input.o show_result.o
